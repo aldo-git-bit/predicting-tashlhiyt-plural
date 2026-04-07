@@ -1,0 +1,25 @@
+variable,tash_noun columns,class (yellow = needed),type,size,explanation,notes
+y_macro_suffix,engineered: analysisPluralPattern,predicted_macro,binary,2,Does the plural have a plural suffix based on -(i)n,"External and Mixed = 1, Internal = 0"
+y_macro_mutated,engineered: analysisPluralPattern,predicted_macro,binary,2,Does the stem have an internal change,"Internal and Mixed = 1, External = 0"
+y_macro_3types,"analysisPluralPattern: filter out No Plural, Only Singular, id Plural",predicted_macro,multi-category,3,"three-way typing: internal, external, mixed","Filter: Enternal, Internal, Mixed only"
+y_micro_6mutations,analysisInternalChanges: filter out Suppletion,predicted_micro,"multi-category, multi-value",6,"six mutations, can specify more than one (with Ablaut)","6 basic categories, 2 combinations separated by \n; remove examples with value 'Suppletion'"
+y_micro_8mutations,engineered: analysisInternalChanges,predicted_micro,multi-category,8,6 single mutations + 2 combinations with Ablaut,"6 basic categories, 2 new combinations, non-overlapping"
+m_r_aug,analysisRAugVowel,morphology,multi-category,4,stem classification based on R-Aug vowel/zero,
+m_gender,analysisGender2Category,morphology,binary,2,"two way classification: masculine, feminine",
+m_derivational_category,wordDerivedCategory,morphology,multi-category,15?,all derived categories or underived,This may require grouping to deal with low count cases
+m_mutability,analysisMutability (with mappings),morphology,multi-category,3,"three-way typing: variable, neutral, fixed; this means that 'variable-masc/fem' have to be merged, as does 'fixed-masc/fem'; basically you strip everything after 'variable' and 'fixed', to make it a three way system","This is correlated with m_gender but it includes morphological distinctions not in m_gender (variable vs. fixed, neutral)"
+m_loanTypes,lexiconLoanwordSource,morphology,multi-category,5?,"various types of loanwords (e.g., French, Arabic-assimilated) vs. native",Require engineering for Unknown and Spanish case
+s_animacy,lexiconAnimateYN,semantics,binary,2,animate vs. inanimate,
+s_humanness,lexiconHumanYN,semantics,binary,2,human vs. non-human,
+s_semantic_field,lexiconSemanticField,semantics,multi-category,20?,one of 22 semantic field categories,
+p_ngrams,engineered,phonology,"multi-category, multi-value",2265,"All 1-3 phoneme sequences extracted from word edges for macro dataset (n=1,185 nouns)",Full n-gram vocabulary before feature selection
+p_ngrams (micro),engineered,phonology,"multi-category, multi-value",1356,"All 1-3 phoneme sequences extracted from word edges for micro dataset (n=562 nouns)",Full n-gram vocabulary before feature selection
+p_ngrams_macro_master,engineered,phonology,"multi-category, multi-value",2019,Selected n-grams from LASSO Stability Selection for macro dataset,Features selected via stability threshold ≥0.50 (union across 2 targets)
+p_ngrams_micro_master,engineered,phonology,"multi-category, multi-value",1149,Selected n-grams from LASSO Stability Selection for micro dataset,Features selected via stability threshold ≥0.50 (union across 6 targets)
+p_LH,p_stem_sing_LH,phonology,multi-category,20?,L and H syllable string,This may require grouping
+p_stem_syllables,p_stem_sing_syllabified,phonology,string,na,"Not a predictor, but used for p_LH",
+p_foot,p_stem_sing_foot,phonology,multi-category,15?,parsing of LH string into feet (see literature),This may require grouping
+r_stem,analysisSingularStem,record,string,na,this is the phonological form that is the basis for syllables and ngram analysis - it is the word minus inflectional affixes,
+r_id,recordID,record,integer,na,ID for looking up data point in the dataset,
+r_glossEnglish,lexiconGlossEnglish,record,string,na,"English gloss, but try to use French gloss first",
+r_glossFrench,lexiconGlossFrench,record,string,na,French gloss,

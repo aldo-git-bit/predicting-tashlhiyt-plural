@@ -1,0 +1,22 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,1540,wal,waliw,Final Vw,"speech, language",MP Fail,0.920,0.843,0.920
+2,304,ir,ariw,Final Vw,edge,MP Fail,0.914,0.869,0.914
+3,1582,skkur,skʷra,Final A,partridge,Both Fail,0.913,0.871,0.955
+4,306,nkkur,nkʷra,Final A,goat,Both Fail,0.906,0.856,0.955
+5,454,ul,ulaw,Final Vw,heart,MP Fail,0.900,0.866,0.900
+6,765,zmz,zmaz,Medial A,"time, mood",MP Fail,0.883,0.834,0.883
+7,1557,lm,lmaw,Final Vw,skin,MP Fail,0.879,0.826,0.879
+8,1191,fis,fasiw,Final Vw,hyena,MP Fail,0.879,0.839,0.879
+9,716,frag,frga,Final A,"enclosure, fence, fencing",LSTM Fail,0.879,0.879,0.650
+10,1060,!izdi,!izdja,Final A,spindle,Both Fail,0.877,0.837,0.917
+11,283,bzg,bzga,Final A,jewel,LSTM Fail,0.869,0.869,0.866
+12,1423,zrg,zrgʷa,Final A,"quern, hand mill",LSTM Fail,0.868,0.868,0.912
+13,345,χnif,χnifa,Final A,burnous,LSTM Fail,0.864,0.864,0.590
+14,570,!sud,!suda,Final A,"ass, rump",LSTM Fail,0.863,0.863,0.823
+15,1012,asa,asw,Final A,liver,Both Fail,0.856,0.837,0.876
+16,969,mgr,mgra,Final A,sickle,LSTM Fail,0.855,0.855,0.736
+17,1477,!id,!ada,"Final A
+Ablaut",night,LSTM Fail,0.854,0.854,0.901
+18,1810,gllid,glda,Final A,king,Both Fail,0.853,0.856,0.849
+19,400,igr,igra,Final A,field,LSTM Fail,0.852,0.852,0.793
+20,1044,smmid,smda,Final A,cold,LSTM Fail,0.849,0.849,0.590

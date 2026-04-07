@@ -1,0 +1,21 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,1675,nʁʷr,nʁʷra,Final A,chicken coop,LSTM Fail,0.998,0.998,0.582
+2,1449,wajja,wiw,Suppletion,slave,MP Fail,0.959,0.908,0.959
+3,472,milla,malliw,Ablaut,dove,MP Fail,0.959,0.582,0.959
+4,1125,brgmmi,brgmmit,Insert C,big house,LSTM Fail,0.947,0.947,0.647
+5,1049,ħukku,ħukkut,Insert C,friction or rubbing,Both Fail,0.926,0.991,0.862
+6,323,flufu,flufut,Insert C,"bubbling, foaming",LSTM Fail,0.923,0.923,0.605
+7,1281,brdi,brda,Ablaut,rag,LSTM Fail,0.906,0.906,0.575
+8,1122,iχibi,iχibit,Insert C,pitcherful,Both Fail,0.887,0.948,0.827
+9,1510,χs,χsa,Final A,bone,MP Fail,0.881,0.694,0.881
+10,1150,saka,sakat,Insert C,ford,LSTM Fail,0.879,0.879,0.905
+11,1140,aka,akat,Insert C,large lizard,LSTM Fail,0.876,0.876,0.549
+12,571,gnunni,gnunnaj,Medial A,somersault,MP Fail,0.875,0.764,0.875
+13,328,!sħurru,!sħurrut,Insert C,braying,LSTM Fail,0.861,0.861,0.695
+14,544,qaʃʃa,qaʃʃat,Insert C,crest,LSTM Fail,0.859,0.859,0.847
+15,1881,qnrif,qnraf,Ablaut,palm tip,LSTM Fail,0.849,0.849,0.990
+16,778,isi,isit,Insert C,platform,Both Fail,0.849,0.816,0.881
+17,1139,kajja,kajjat,Insert C,"thrush, black boy (type of bird)",LSTM Fail,0.846,0.846,0.655
+18,1046,ildi,ildja,Final A,sling,LSTM Fail,0.846,0.846,0.692
+19,115,ʃtibbʃ,ʃtibbiʃ,Medial A,act of wading,MP Fail,0.843,0.953,0.843
+20,470,ala,alat,Insert C,hill,LSTM Fail,0.832,0.832,0.612

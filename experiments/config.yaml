@@ -1,0 +1,136 @@
+# ML Experiment Configuration
+# Tashlhiyt Plural Prediction
+# Date: December 30, 2025
+
+# Global settings
+random_state: 42
+n_jobs: -1  # Use all available cores
+
+# Cross-validation
+cv:
+  n_folds: 10
+  stratified: true
+  shuffle: true
+
+# Model domains (10 total)
+domains:
+  macro:
+    - has_suffix
+    - has_mutation
+    - 3way
+  micro:
+    - medial_a
+    - final_a
+    - final_vw
+    - ablaut
+    - insert_c
+    - templatic
+    - 8way
+
+# Baseline models
+baselines:
+  majority_class:
+    name: "Majority Class"
+    description: "Always predict most frequent class"
+
+  random:
+    name: "Random"
+    description: "Random prediction (stratified by class distribution)"
+    n_iterations: 100  # Average over 100 runs for stable estimates
+
+  ngram_only:
+    name: "N-gram Only (Logistic Regression)"
+    description: "Logistic regression using only n-gram features"
+    C: 1.0
+    penalty: "l2"
+    solver: "lbfgs"
+    max_iter: 1000
+
+# Experimental models
+# Fixed hyperparameters approach: prioritizes comparative linguistic analysis over
+# absolute metric maximization. Performance differences reflect informational quality
+# of linguistic features rather than artifacts of optimization.
+models:
+  logistic_regression:
+    name: "Logistic Regression"
+    C: 1.0
+    penalty: "l2"
+    solver: "lbfgs"
+    max_iter: 1000
+    class_weight: "balanced"
+
+  random_forest:
+    name: "Random Forest"
+    n_estimators: 100
+    max_depth: 10  # Conservative depth prevents overfitting
+    min_samples_split: 5
+    min_samples_leaf: 2
+    max_features: "sqrt"
+    class_weight: "balanced"
+
+  xgboost:
+    name: "XGBoost"
+    n_estimators: 100
+    max_depth: 5
+    learning_rate: 0.1  # Conservative learning rate
+    subsample: 0.8
+    colsample_bytree: 0.8
+    min_child_weight: 1
+    gamma: 0
+    reg_alpha: 0
+    reg_lambda: 1
+    # Note: scale_pos_weight will be computed per domain based on class imbalance
+
+# Evaluation metrics
+metrics:
+  primary: "macro_f1"  # Primary metric for model selection
+  additional:
+    - "accuracy"
+    - "precision_macro"
+    - "recall_macro"
+    - "f1_weighted"
+
+  # For multiclass (3way, 8way)
+  multiclass:
+    - "confusion_matrix"
+    - "classification_report"
+
+# Feature subsets (for ablation studies - Phase 4)
+feature_subsets:
+  all:
+    name: "All Features"
+    include: ["morphological", "semantic", "phonological", "ngrams"]
+
+  morphological_only:
+    name: "Morphological Only"
+    include: ["morphological"]
+
+  semantic_only:
+    name: "Semantic Only"
+    include: ["semantic"]
+
+  phonological_only:
+    name: "Phonological Only"
+    include: ["phonological"]
+
+  ngram_only:
+    name: "N-grams Only"
+    include: ["ngrams"]
+
+  form_only:
+    name: "Form Only (Phonology + Morphology)"
+    include: ["phonological", "morphological"]
+
+# Output settings
+output:
+  results_dir: "experiments/results"
+  models_dir: "experiments/models"
+  save_models: true  # Save trained models for later analysis
+  save_predictions: true  # Save predictions for error analysis
+  verbose: true
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "experiments/experiment.log"

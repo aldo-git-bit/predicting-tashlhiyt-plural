@@ -1,0 +1,24 @@
+Hypotheses for micro-level analysis using LH and foot structure
+
+Below are ways to group the values in p_LH and p_foot that are meaningful for the internal change patterns. The specific groupings are given in two csv files: LH_patterns.csv and foot_structures.csv.
+
+Groupings of LH patterns:
+
+ends_L: 1 if ends in L, else 0; relevant to Medial A (tends to apply to stems ending in L) and Final A (which may be an 'elsewhere' case, applying where Medial A does not), and Final Vw (commonly applies to consonant-final stems, which tend to be H)
+
+less_2_syllables: 1 if 1 or 2 syllables, else: 0; possible size restrictor on processes
+
+final_2: last two syllable categories; captures a 'final weight' profile relevant to many final-edge processes
+
+count_heavies: count of H syllables; might be relevant to Medial A which might have a cap on the total number of H syllables
+
+count_moras: count of stem moras, H=2, L=1 (not in csv, must be calculated); another size restrictor
+
+Groupings of foot structure:
+
+count_feet: count of number of stem feet - possible size restrictor
+
+residue_right: is there a residue (i.e., an unfooted l syllable) at the end of the stem; relevant to syllable parsing
+
+residue: does the stem have a residue (=1), or an unfooted l syllable anywhere; relevant to a foot parsing algorithms and 'incomplete' parsing
+

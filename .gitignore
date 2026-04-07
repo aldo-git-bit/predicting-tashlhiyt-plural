@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+data/*.backup
+data/*_backup.csv
+*.tmp
+
+# Claude Code settings (local only)
+.claude/
+
+# TensorFlow model checkpoints
+*.h5
+*.keras
+checkpoints/

@@ -1,0 +1,999 @@
+{
+  "results": [
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_ends_L",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 54.65399942250545,
+      "p_value": 1.4373151848235555e-13,
+      "odds_ratio": 7.221337524008543,
+      "effect_size": 23.56736435683804
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_initial_weight",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 0.17789044334404827,
+      "p_value": 0.6731924632834174,
+      "odds_ratio": 1.1309619575383585,
+      "effect_size": 1.7815971494445608
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_less_2_syllables",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 0.5267533784931332,
+      "p_value": 0.46797501385614104,
+      "odds_ratio": 1.2525611777720347,
+      "effect_size": 3.21860599078341
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_all_light",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 36.795212769895315,
+      "p_value": 1.3121205009279459e-09,
+      "odds_ratio": 3.7442050022152618,
+      "effect_size": 20.982936366868113
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_all_heavy",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 9.12560818172431,
+      "p_value": 0.0025205607720508484,
+      "odds_ratio": 0.3125475711898087,
+      "effect_size": 13.386982139991288
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_foot_residue_right",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 6.809652653793835,
+      "p_value": 0.009066639961614727,
+      "odds_ratio": 1.910819116667241,
+      "effect_size": 10.650224215246636
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_foot_residue",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 0.3610147568388467,
+      "p_value": 0.5479432049903196,
+      "odds_ratio": 0.8566171983059686,
+      "effect_size": 2.252580682297864
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_ends_L",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 9.15010231346331,
+      "p_value": 0.0024870415964583174,
+      "odds_ratio": 0.4653266513834884,
+      "effect_size": 8.847287136760821
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_initial_weight",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 0.583912202521788,
+      "p_value": 0.4447829351781052,
+      "odds_ratio": 0.8040717556408907,
+      "effect_size": 2.642353105568364
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_less_2_syllables",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 17.130042558459955,
+      "p_value": 3.490578179440614e-05,
+      "odds_ratio": 5.959299638845356,
+      "effect_size": 14.336117511520738
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_all_light",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 0.16569351216064254,
+      "p_value": 0.683967828527517,
+      "odds_ratio": 0.8694506062900722,
+      "effect_size": 1.6500770233439987
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_all_heavy",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 13.492801315727709,
+      "p_value": 0.0002394804096521557,
+      "odds_ratio": 2.661255309561773,
+      "effect_size": 14.496641217873766
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_foot_residue_right",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 6.544904912232964,
+      "p_value": 0.01051849497194317,
+      "odds_ratio": 0.38172812441211545,
+      "effect_size": 9.401577238286688
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_foot_residue",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 8.669688356826674,
+      "p_value": 0.003235465176944064,
+      "odds_ratio": 0.4781802977409142,
+      "effect_size": 8.653440270156183
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_ends_L",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 0.08105045703422484,
+      "p_value": 0.7758788792908272,
+      "odds_ratio": 0.8533632271236502,
+      "effect_size": 0.8712660028449497
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_initial_weight",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 0.0029770184983372748,
+      "p_value": 0.9564873646625875,
+      "odds_ratio": 0.9175086950327488,
+      "effect_size": 0.49605253964927
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_less_2_syllables",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 1.5527747694855587,
+      "p_value": 0.21272627681257905,
+      "odds_ratio": 1.931039390868678,
+      "effect_size": 3.1862039170506917
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_all_light",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 0.23678481875775687,
+      "p_value": 0.6265379935317059,
+      "odds_ratio": 1.284265185605814,
+      "effect_size": 1.3656831378125371
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_all_heavy",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 2.5900142824930996,
+      "p_value": 0.10753936599004806,
+      "odds_ratio": 1.9569745696531589,
+      "effect_size": 4.550977829745284
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_foot_residue_right",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 0.0012641355213782544,
+      "p_value": 0.9716374427538967,
+      "odds_ratio": 0.8946878716182974,
+      "effect_size": 0.6223905984227611
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_foot_residue",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 1.7589579907631474,
+      "p_value": 0.18475453964580013,
+      "odds_ratio": 0.5970734948320829,
+      "effect_size": 2.764240121774946
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_ends_L",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 1.6982151842980098,
+      "p_value": 0.19252155757951184,
+      "odds_ratio": 0.795855221416026,
+      "effect_size": 5.857549278601909
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_initial_weight",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 5.16792085427336,
+      "p_value": 0.023007737153643307,
+      "odds_ratio": 0.666025739975569,
+      "effect_size": 10.457625934465176
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_less_2_syllables",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 6.843725819913659,
+      "p_value": 0.008895312142736088,
+      "odds_ratio": 1.7059573657774583,
+      "effect_size": 13.652073732718895
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_all_light",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 5.718028714394624,
+      "p_value": 0.01679157260654462,
+      "odds_ratio": 0.6428817901998448,
+      "effect_size": 11.31650669510605
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_all_heavy",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 3.156833433782207,
+      "p_value": 0.07560971195114986,
+      "odds_ratio": 1.503925133288321,
+      "effect_size": 10.720590595410052
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_foot_residue_right",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 0.0,
+      "p_value": 1.0,
+      "odds_ratio": 1.0109574647470843,
+      "effect_size": 0.2937992886964613
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_foot_residue",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 6.647192067317697e-05,
+      "p_value": 0.9934948942065429,
+      "odds_ratio": 1.0154074761564182,
+      "effect_size": 0.3939777683973522
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_ends_L",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 34.617045299306795,
+      "p_value": 4.01376251460821e-09,
+      "odds_ratio": 13.589548514111783,
+      "effect_size": 12.837837837837837
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_initial_weight",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 0.21538211293247891,
+      "p_value": 0.6425812708737867,
+      "odds_ratio": 0.8201846873040853,
+      "effect_size": 1.4252777195556496
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_less_2_syllables",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 5.482674721033491,
+      "p_value": 0.019205849467700754,
+      "odds_ratio": 0.46308839564455023,
+      "effect_size": 6.419210829493088
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_all_light",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 4.342712403410175,
+      "p_value": 0.03716766662911322,
+      "odds_ratio": 1.9664426986866144,
+      "effect_size": 5.1901884109491645
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_all_heavy",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 6.847527219129095,
+      "p_value": 0.00887640446797469,
+      "odds_ratio": 0.2058199122025196,
+      "effect_size": 8.102345415778252
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_foot_residue_right",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 23.412283960125023,
+      "p_value": 1.307409981878092e-06,
+      "odds_ratio": 4.175762499227417,
+      "effect_size": 13.205504870882944
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_foot_residue",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 4.977282944016052,
+      "p_value": 0.025682287809574888,
+      "odds_ratio": 2.1706275736808234,
+      "effect_size": 5.108919503178685
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_ends_L",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 15.954738730098384,
+      "p_value": 6.487516907971903e-05,
+      "odds_ratio": 0.41665519516560884,
+      "effect_size": 13.363645600487706
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_initial_weight",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 11.722622296698898,
+      "p_value": 0.0006174488763110559,
+      "odds_ratio": 2.359959144183964,
+      "effect_size": 12.086913994270942
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_less_2_syllables",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 43.482696458558,
+      "p_value": 4.277248597745088e-11,
+      "odds_ratio": 0.24228609969152046,
+      "effect_size": 26.069268433179726
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_all_light",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 3.6584771093581967,
+      "p_value": 0.05578460013787691,
+      "odds_ratio": 0.6150843142578476,
+      "effect_size": 7.142433937670339
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_all_heavy",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 4.722702531711505,
+      "p_value": 0.02976692443974939,
+      "odds_ratio": 0.4773331067100698,
+      "effect_size": 10.152004952197538
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_foot_residue_right",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 8.144066519397915,
+      "p_value": 0.004320228941249756,
+      "odds_ratio": 0.40445644090820076,
+      "effect_size": 12.007113035410546
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_foot_residue",
+      "type": "binary",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 1.420606853285614,
+      "p_value": 0.23330354383767718,
+      "odds_ratio": 1.3199966047626166,
+      "effect_size": 4.254448239251954
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_count_heavies",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 38.77779845057785,
+      "p_value": 3.797589835366994e-09,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 20.982936366868113,
+      "optimal_split_or": 0.26703365545496294,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_count_moras",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 29.99954132865856,
+      "p_value": 4.895489555367124e-06,
+      "optimal_split": 2.0,
+      "optimal_split_effect": 16.752522872418226,
+      "optimal_split_or": 0.3591906918340097,
+      "value_range": "1.0-5.0"
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_foot_count_feet",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 16.200687840405646,
+      "p_value": 0.00030343476278634846,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 15.501776625372132,
+      "optimal_split_or": 0.2406028387185497,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_count_heavies",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 0.9803941435954238,
+      "p_value": 0.6125056746951826,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 2.836816885674809,
+      "optimal_split_or": 0.7890509677314411,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_count_moras",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 25.464421564657993,
+      "p_value": 4.057061356960549e-05,
+      "optimal_split": 2.0,
+      "optimal_split_effect": 15.686497554316917,
+      "optimal_split_or": 0.31411046886995314,
+      "value_range": "1.0-5.0"
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_foot_count_feet",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 3.71643794615433,
+      "p_value": 0.15595013456169643,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 12.455197132616489,
+      "optimal_split_or": 0.7197268630680624,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_count_heavies",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 4.012623242486816,
+      "p_value": 0.13448378817184142,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 5.476673427991886,
+      "optimal_split_or": 0.3120881041502093,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_count_moras",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 33.185051715229264,
+      "p_value": 1.0946764553227142e-06,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 45.51971326164875,
+      "optimal_split_or": 0.25817429916914375,
+      "value_range": "1.0-5.0"
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_foot_count_feet",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 22.24828384513891,
+      "p_value": 1.4751852017242962e-05,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 45.51971326164875,
+      "optimal_split_or": 0.25817429916914375,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_count_heavies",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 22.982740832895207,
+      "p_value": 1.0217890367661337e-05,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 29.4911367845489,
+      "optimal_split_or": 3.2125959183993795,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_count_moras",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 9.28861863667988,
+      "p_value": 0.05427663273462327,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 48.38709677419355,
+      "optimal_split_or": 2.7643946581010397,
+      "value_range": "1.0-5.0"
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_foot_count_feet",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 7.542813336551106,
+      "p_value": 0.023019659477162363,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 48.38709677419355,
+      "optimal_split_or": 2.7643946581010397,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_count_heavies",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 5.810548431179056,
+      "p_value": 0.054733779687806884,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 5.1901884109491645,
+      "optimal_split_or": 0.5101035841434597,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_count_moras",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 12.132013713443849,
+      "p_value": 0.016396107212761385,
+      "optimal_split": 4.0,
+      "optimal_split_effect": 27.004219409282697,
+      "optimal_split_or": 3.468380438159594,
+      "value_range": "1.0-5.0"
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_foot_count_feet",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 4.525519121742503,
+      "p_value": 0.1040629201985761,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 6.810035842293908,
+      "optimal_split_or": 1.2574839370456914,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_count_heavies",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 10.021268306790569,
+      "p_value": 0.006666674271344145,
+      "optimal_split": 1.0,
+      "optimal_split_effect": 9.124849340035865,
+      "optimal_split_or": 0.5258522865123535,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_count_moras",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 42.49453162298859,
+      "p_value": 1.3173656840453318e-08,
+      "optimal_split": 2.0,
+      "optimal_split_effect": 21.957521491135417,
+      "optimal_split_or": 8.561505641452747,
+      "value_range": "1.0-5.0"
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_foot_count_feet",
+      "type": "continuous",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 18.638956437275766,
+      "p_value": 8.96606814723049e-05,
+      "optimal_split": 0.0,
+      "optimal_split_effect": 18.27956989247312,
+      "optimal_split_or": 1.6317122039748606,
+      "value_range": "0-2"
+    },
+    {
+      "mutation": "Medial A",
+      "grouping": "p_LH_final_2",
+      "type": "categorical",
+      "n_cases": 562,
+      "n_mutation": 93.0,
+      "pct_mutation": 16.548042704626333,
+      "chi2": 57.54309756106332,
+      "p_value": 3.907714513241144e-11,
+      "category_rates": {
+        "LL": {
+          "rate": 29.444444444444446,
+          "n": 180
+        },
+        "HL": {
+          "rate": 25.0,
+          "n": 112
+        },
+        "L": {
+          "rate": 25.0,
+          "n": 4
+        },
+        "H": {
+          "rate": 6.25,
+          "n": 32
+        },
+        "HH": {
+          "rate": 4.918032786885246,
+          "n": 61
+        },
+        "LH": {
+          "rate": 3.4682080924855487,
+          "n": 173
+        }
+      },
+      "n_categories": 6
+    },
+    {
+      "mutation": "Final A",
+      "grouping": "p_LH_final_2",
+      "type": "categorical",
+      "n_cases": 562,
+      "n_mutation": 71.0,
+      "pct_mutation": 12.633451957295375,
+      "chi2": 48.6536305457993,
+      "p_value": 2.612063460533779e-09,
+      "category_rates": {
+        "H": {
+          "rate": 50.0,
+          "n": 32
+        },
+        "L": {
+          "rate": 25.0,
+          "n": 4
+        },
+        "LH": {
+          "rate": 13.294797687861271,
+          "n": 173
+        },
+        "HH": {
+          "rate": 11.475409836065573,
+          "n": 61
+        },
+        "LL": {
+          "rate": 10.555555555555555,
+          "n": 180
+        },
+        "HL": {
+          "rate": 4.464285714285714,
+          "n": 112
+        }
+      },
+      "n_categories": 6
+    },
+    {
+      "mutation": "Final Vw",
+      "grouping": "p_LH_final_2",
+      "type": "categorical",
+      "n_cases": 562,
+      "n_mutation": 27.0,
+      "pct_mutation": 4.804270462633451,
+      "chi2": 51.31458451528147,
+      "p_value": 7.455792756044442e-10,
+      "category_rates": {
+        "L": {
+          "rate": 50.0,
+          "n": 4
+        },
+        "H": {
+          "rate": 25.0,
+          "n": 32
+        },
+        "LL": {
+          "rate": 4.444444444444445,
+          "n": 180
+        },
+        "LH": {
+          "rate": 3.4682080924855487,
+          "n": 173
+        },
+        "HL": {
+          "rate": 2.6785714285714284,
+          "n": 112
+        },
+        "HH": {
+          "rate": 0.0,
+          "n": 61
+        }
+      },
+      "n_categories": 6
+    },
+    {
+      "mutation": "Ablaut",
+      "grouping": "p_LH_final_2",
+      "type": "categorical",
+      "n_cases": 562,
+      "n_mutation": 270.0,
+      "pct_mutation": 48.04270462633452,
+      "chi2": 28.45251296552787,
+      "p_value": 2.9686353316822834e-05,
+      "category_rates": {
+        "HH": {
+          "rate": 73.77049180327869,
+          "n": 61
+        },
+        "HL": {
+          "rate": 50.0,
+          "n": 112
+        },
+        "LH": {
+          "rate": 47.97687861271676,
+          "n": 173
+        },
+        "LL": {
+          "rate": 43.333333333333336,
+          "n": 180
+        },
+        "H": {
+          "rate": 25.0,
+          "n": 32
+        },
+        "L": {
+          "rate": 0.0,
+          "n": 4
+        }
+      },
+      "n_categories": 6
+    },
+    {
+      "mutation": "Insert C",
+      "grouping": "p_LH_final_2",
+      "type": "categorical",
+      "n_cases": 562,
+      "n_mutation": 38.0,
+      "pct_mutation": 6.761565836298933,
+      "chi2": 44.445835963955695,
+      "p_value": 1.8803823385265045e-08,
+      "category_rates": {
+        "HL": {
+          "rate": 17.857142857142858,
+          "n": 112
+        },
+        "LL": {
+          "rate": 10.0,
+          "n": 180
+        },
+        "HH": {
+          "rate": 0.0,
+          "n": 61
+        },
+        "LH": {
+          "rate": 0.0,
+          "n": 173
+        },
+        "H": {
+          "rate": 0.0,
+          "n": 32
+        },
+        "L": {
+          "rate": 0.0,
+          "n": 4
+        }
+      },
+      "n_categories": 6
+    },
+    {
+      "mutation": "Templatic",
+      "grouping": "p_LH_final_2",
+      "type": "categorical",
+      "n_cases": 562,
+      "n_mutation": 102.0,
+      "pct_mutation": 18.14946619217082,
+      "chi2": 41.91051462916467,
+      "p_value": 6.141181587086103e-08,
+      "category_rates": {
+        "LH": {
+          "rate": 33.52601156069364,
+          "n": 173
+        },
+        "LL": {
+          "rate": 13.88888888888889,
+          "n": 180
+        },
+        "HH": {
+          "rate": 11.475409836065573,
+          "n": 61
+        },
+        "HL": {
+          "rate": 8.928571428571429,
+          "n": 112
+        },
+        "H": {
+          "rate": 6.25,
+          "n": 32
+        },
+        "L": {
+          "rate": 0.0,
+          "n": 4
+        }
+      },
+      "n_categories": 6
+    }
+  ],
+  "redundancy": [
+    {
+      "grouping_1": "p_LH_all_light",
+      "grouping_2": "p_LH_count_heavies",
+      "correlation": -0.863738284067236
+    },
+    {
+      "grouping_1": "p_LH_count_heavies",
+      "grouping_2": "p_LH_count_moras",
+      "correlation": 0.7078232284384346
+    },
+    {
+      "grouping_1": "p_LH_count_moras",
+      "grouping_2": "p_foot_count_feet",
+      "correlation": 0.7577536861224128
+    }
+  ]
+}

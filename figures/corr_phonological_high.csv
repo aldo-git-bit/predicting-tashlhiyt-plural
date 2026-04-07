@@ -1,0 +1,4 @@
+Feature 1,Feature 2,r,abs_r
+p_LH_count_moras,p_foot_count_feet,0.8061868665800224,0.8061868665800224
+p_LH_count_heavies,p_LH_count_moras,0.7506851388436023,0.7506851388436023
+p_LH_initial_weight,p_LH_all_heavy,-0.7428919186363704,0.7428919186363704

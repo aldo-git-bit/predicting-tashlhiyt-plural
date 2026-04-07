@@ -1,0 +1,21 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,114,!zid,!zid,,"act of grinding, ground grain",MP Fail,0.958,0.581,0.958
+2,593,mkli,mklaw,,breakfast,MP Fail,0.957,0.565,0.957
+3,1661,flu,flw,,portal,MP Fail,0.940,0.642,0.940
+4,281,mksa,mksaw,,shepherd,MP Fail,0.937,0.564,0.937
+5,1913,aga,agiw,,leather bucket,MP Fail,0.863,0.518,0.863
+6,1373,stta,sttwa,,loom,MP Fail,0.848,0.570,0.848
+7,1415,qʷbajs,qʷbajs,,sod,MP Fail,0.815,0.482,0.815
+8,310,imi,imaw,,mouth,MP Fail,0.803,0.546,0.803
+9,428,ʁʒd,ʁʒd,,kid (small goat),MP Fail,0.802,0.554,0.802
+10,1799,wargi,wargiw,,dream,MP Fail,0.800,0.638,0.800
+11,1038,!zag,!zagʷ,,fringe,MP Fail,0.800,0.556,0.800
+12,464,mqllq,mqllq,,someone who is choleric or anxious,MP Fail,0.792,0.526,0.792
+13,276,ħuli,ħuli,,ram,MP Fail,0.791,0.484,0.791
+14,757,zlf,zlf,,tassel (like for corn),MP Fail,0.780,0.584,0.780
+15,288,ird,ird,,wheat,MP Fail,0.778,0.520,0.778
+16,1037,wnza,wnziw,,fringe,MP Fail,0.774,0.530,0.774
+17,1704,arraw,tarwa,Final A,"offspring, progeny",Both Fail,0.765,0.546,0.984
+18,1706,murri,murri,,walk,MP Fail,0.762,0.518,0.762
+19,261,suff,suff,,"balloon, cavity formed by an intestine",MP Fail,0.761,0.523,0.761
+20,1790,magur,magur,,resting person,MP Fail,0.758,0.537,0.758

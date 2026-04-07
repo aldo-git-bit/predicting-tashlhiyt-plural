@@ -1,0 +1,21 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,288,ird,ird,,wheat,MP Fail,0.984,0.538,0.984
+2,668,sħssu,sħssu,,listening,MP Fail,0.963,0.546,0.963
+3,238,kur,kur,,ball,MP Fail,0.940,0.542,0.940
+4,1661,flu,flw,,portal,MP Fail,0.920,0.591,0.920
+5,1614,fifl,fifl,,chili (du),MP Fail,0.904,0.515,0.904
+6,364,!mʃd,!mʃd,,card,MP Fail,0.902,0.519,0.902
+7,593,mkli,mklaw,,breakfast,MP Fail,0.895,0.520,0.895
+8,975,sttiʁ,sttʁa,Final A,"crack, crack",MP Fail,0.894,0.562,0.894
+9,1047,ignzi,ignziw,,front,MP Fail,0.894,0.545,0.894
+10,261,suff,suff,,"balloon, cavity formed by an intestine",MP Fail,0.885,0.542,0.885
+11,1529,billu,balliw,,"part of a dress than hangs down, bang",MP Fail,0.871,0.506,0.871
+12,310,imi,imaw,,mouth,MP Fail,0.865,0.549,0.865
+13,784,mda,mdw,,pond,MP Fail,0.862,0.549,0.862
+14,467,ldi,ldij,,plow draw collar,MP Fail,0.856,0.547,0.856
+15,63,msijjs,msijjs,,tamer,MP Fail,0.845,0.668,0.845
+16,1309,!mddsr,!mddsr,,"impolite, turbulent person",MP Fail,0.831,0.573,0.831
+17,757,zlf,zlf,,tassel (like for corn),MP Fail,0.825,0.605,0.825
+18,428,ʁʒd,ʁʒd,,kid (small goat),MP Fail,0.819,0.548,0.819
+19,1333,kin,kin,,cooking pot,MP Fail,0.816,0.627,0.816
+20,1799,wargi,wargiw,,dream,MP Fail,0.816,0.508,0.816

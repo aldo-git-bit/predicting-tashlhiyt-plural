@@ -1,0 +1,6 @@
+Category,Count,Percentage
+LSTM Only,290,36.70886075949367
+Morph+Phon Only,88,11.139240506329115
+Both Models Fail,68,8.60759493670886
+Both Correct,344,43.54430379746835
+Total,790,100.0

@@ -1,0 +1,23 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,1477,!id,!ada,"Final A
+Ablaut",night,MP Fail,0.960,0.763,0.960
+2,755,iʁir,iʁariw,Final Vw,shoulder,LSTM Fail,0.934,0.934,0.665
+3,419,!muʃʃ,!maʃʃiw,Final Vw,cat,LSTM Fail,0.926,0.926,0.541
+4,159,fr,farr,Medial A,wing,MP Fail,0.925,0.901,0.925
+5,1560,!hidur,!hidar,Ablaut,sheepskin,LSTM Fail,0.912,0.912,0.932
+6,160,fr,fraw,Final Vw,"leaf, wing",LSTM Fail,0.904,0.904,0.879
+7,1882,ʁirdm,ʁardmiw,Final Vw,scorpion,Both Fail,0.903,0.812,0.995
+8,454,ul,ulaw,Final Vw,heart,LSTM Fail,0.895,0.895,0.907
+9,1418,izi,iza,Ablaut,fly,MP Fail,0.856,0.944,0.856
+10,1510,χs,χsa,Final A,bone,Both Fail,0.849,0.907,0.792
+11,1675,nʁʷr,nʁʷra,Final A,chicken coop,LSTM Fail,0.846,0.846,0.937
+12,1554,irgl,argliw,Final Vw,eyelid,MP Fail,0.846,0.886,0.846
+13,1265,nʃr,nʃra,Final A,lip,LSTM Fail,0.841,0.841,0.871
+14,384,bikks,bakks,Ablaut,belt,LSTM Fail,0.833,0.833,0.994
+15,1592,ʁrʁur,ʁrʁʷar,Ablaut,small hand mill,LSTM Fail,0.818,0.818,0.925
+16,475,dχʷs,dχʷsa,Final A,colostrum,LSTM Fail,0.791,0.791,0.974
+17,1462,sm,smaw,Final Vw,name,Both Fail,0.789,0.979,0.599
+18,643,!dad,!duda,"Ablaut
+Final A",finger,MP Fail,0.788,0.756,0.788
+19,1684,!gdrur,!gʷdrar,Ablaut,dust,LSTM Fail,0.777,0.777,0.970
+20,243,amar,imariw,Final Vw,beard,Both Fail,0.772,0.926,0.617

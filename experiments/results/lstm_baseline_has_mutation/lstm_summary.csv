@@ -1,0 +1,2 @@
+domain,model,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,auc_roc_mean,auc_roc_std
+has_mutation,lstm,0.5468354430379747,0.0331163153929934,0.3989090519243307,0.09467463247415518,0.5260736234573444,0.06380647860848794

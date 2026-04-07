@@ -1,0 +1,22 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,768,!rrgg,!largug,Templatic,"erg, broad flat area of desert",MP Fail,0.984,0.999,0.984
+2,1248,satl,sutal,"Ablaut
+Medial A","diaper, strip of cloth",MP Fail,0.965,0.879,0.965
+3,1059,mazir,mzra,Final A,manure,MP Fail,0.937,0.940,0.937
+4,1841,wlk,wlka,Final A,pannier bag,LSTM Fail,0.924,0.924,0.909
+5,307,kru,krwa,Final A,goat,MP Fail,0.921,0.642,0.921
+6,159,fr,farr,Medial A,wing,MP Fail,0.901,0.878,0.901
+7,1190,ħʃuʃ,ħʃaʃ,Ablaut,hut,MP Fail,0.901,0.785,0.901
+8,1777,!gzzl,!gzzal,Medial A,"kidney, kidney",MP Fail,0.887,0.999,0.887
+9,1810,gllid,glda,Final A,king,Both Fail,0.877,0.842,0.913
+10,1553,dikl,dikal,Medial A,palm,MP Fail,0.850,0.781,0.850
+11,1581,!grnid,!grnad,Ablaut,partridge,Both Fail,0.839,0.753,0.925
+12,1176,mkkasu,mkkusa,Ablaut,heir,Both Fail,0.838,0.688,0.988
+13,1146,frsi,frsaj,Medial A,big board,LSTM Fail,0.825,0.825,0.546
+14,1110,mqqi,mqqa,Ablaut,drop,MP Fail,0.816,0.889,0.816
+15,1270,skrf,skraf,Medial A,"link, hobble for horse or other livestock",LSTM Fail,0.791,0.791,0.618
+16,1423,zrg,zrgʷa,Final A,"quern, hand mill",Both Fail,0.755,0.593,0.916
+17,84,nrbi,nrbaj,Medial A,given birth,MP Fail,0.753,0.616,0.753
+18,1062,mrwl,mrwal,Medial A,fugitive,MP Fail,0.705,0.723,0.705
+19,388,msgilli,msgillit,Insert C,one who swears,Both Fail,0.702,0.736,0.668
+20,1233,mkiri,mkara,Ablaut,day laborer,Both Fail,0.674,0.622,0.725

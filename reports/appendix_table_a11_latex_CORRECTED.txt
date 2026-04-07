@@ -1,0 +1,26 @@
+\begin{table}[h]
+\centering
+\caption{Statistical significance tests comparing M+P (Morph+Phon) against baseline models. $\Delta$ values represent mean difference in Macro-F1 across 10 folds. Positive $\Delta$ indicates M+P outperforms baseline; negative indicates baseline outperforms M+P. Significance markers: ***$p$ < 0.001, **$p$ < 0.01, *$p$ < 0.05 (paired $t$-test, two-tailed).}
+\label{tab:significance}
+\begin{tabular}{lcccc}
+\toprule
+\multirow{2}{*}{\textbf{Domain}} & \multicolumn{2}{c}{\textbf{M+P vs. N-grams}} & \multicolumn{2}{c}{\textbf{M+P vs. bi-LSTM}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & $\Delta$ & $p$-value & $\Delta$ & $p$-value \\
+\midrule
+\multicolumn{5}{l}{\textsc{Macro-Level}} \\
+Has Suffix     & +0.036*   & 0.018 & +0.062*** & <0.001 \\
+Has Mutation   & +0.023*   & 0.044 & +0.378*** & <0.001 \\
+3-way          & +0.068*** & <0.001 & +0.445*** & <0.001 \\
+\midrule
+\multicolumn{5}{l}{\textsc{Micro-Level}} \\
+Medial A       & +0.037    & 0.067 & +0.042     & 0.426 \\
+Final A        & $-$0.067* & 0.048 & +0.135***  & <0.001 \\
+Final V/W      & +0.037    & 0.156 & +0.126**   & 0.005 \\
+Ablaut         & +0.021    & 0.197 & +0.025     & 0.180 \\
+Insert C       & $-$0.027  & 0.547 & +0.124*    & 0.013 \\
+Templatic      & +0.034    & 0.054 & +0.059     & 0.486 \\
+8-way          & +0.051**  & 0.006 & +0.383***  & <0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}

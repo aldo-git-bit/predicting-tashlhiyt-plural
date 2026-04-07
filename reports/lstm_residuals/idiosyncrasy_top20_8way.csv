@@ -1,0 +1,22 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,472,milla,malliw,Ablaut,dove,MP Fail,0.857,0.493,0.857
+2,1029,ʁruʃ,ʁuraʃ,Medial A,fork,Both Fail,0.749,0.614,0.884
+3,1411,gzzum,gzʷma,Final A,"piece, tearing action",Both Fail,0.724,0.555,0.893
+4,1449,wajja,wiw,Suppletion,slave,Both Fail,0.704,0.489,0.918
+5,1700,!awmmiz,!iwmmaz,Ablaut,taking both hands,MP Fail,0.703,0.476,0.703
+6,1041,gamrru,gumrra,Ablaut,hornet,MP Fail,0.697,0.479,0.697
+7,1147,fri,fra,Ablaut,cave,MP Fail,0.690,0.464,0.690
+8,1317,!ddakku,!ddukka,Ablaut,handlebar plow,MP Fail,0.660,0.440,0.660
+9,1640,!nidi,!nada,Ablaut,fold,MP Fail,0.658,0.486,0.658
+10,1782,irm,iram,Medial A,meal,Both Fail,0.628,0.529,0.728
+11,306,nkkur,nkʷra,Final A,goat,Both Fail,0.623,0.530,0.717
+12,1477,!id,!ada,"Final A
+Ablaut",night,Both Fail,0.620,0.500,0.740
+13,169,alluz,illwaz,Templatic,almond,Both Fail,0.618,0.451,0.785
+14,1810,gllid,glda,Final A,king,Both Fail,0.614,0.497,0.731
+15,1139,kajja,kajjat,Insert C,"thrush, black boy (type of bird)",Both Fail,0.613,0.464,0.763
+16,1049,ħukku,ħukkut,Insert C,friction or rubbing,Both Fail,0.612,0.524,0.700
+17,360,qlmun,qʷlma,Final A,cap,Both Fail,0.609,0.524,0.695
+18,765,zmz,zmaz,Medial A,"time, mood",Both Fail,0.603,0.453,0.754
+19,445,!smdl,!smdal,Medial A,cemetery,Both Fail,0.602,0.499,0.706
+20,1068,fruχ,frχa,Final A,boy/girl,Both Fail,0.592,0.500,0.683

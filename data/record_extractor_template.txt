@@ -1,0 +1,18 @@
+This is a template for the record extractor script
+
+This script takes as input a string that represents a value in analysisInternalChanges (a field in the data table) and then makes records for rows that have that string as show below in Record Organization. Under Record Organization, the slots represent values of the named field, so 'recordID' is the name of a field (or column header) and I want the slot to be populated with the value of that field in the selected row. If two values are on the same row, separate with a tab, as shown. If a row does not have a value for some variable, just leave it blank. The script, record_extractor.py takes a string (values below) and the nouns_internal_changes xlsx file as input, and then samples at random 20 rows from all rows that contain that string in the analysisInternalChanges field. In then generates a report of those 20 rows, organized as below. The report should be a .txt file. Here is a list of some of the strings (for the researcher's information): Ablaut, Insert C, Medial A, Final A, Final Vw, V Deletion, Other, Cʷ Labialization, Degemination, Suppletion, Vowel Copy. These are examples of the kinds of strings the researcher may use to create a report.
+
+Record Organization
+
+recordID	lexiconGlossEnglish	lexiconGlossFrench
+
+analysisSingularTheme
+analysisPluralTheme
+
+word1MSF	word2MSB
+word3MPF	word4MPB
+word5FSF	word6FSB
+word7FPF	word8FPB
+
+analysisInternalChanges
+analysisNotes

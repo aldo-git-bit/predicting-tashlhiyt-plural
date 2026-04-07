@@ -1,0 +1,12 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,768,!rrgg,!largug,Templatic,"erg, broad flat area of desert",LSTM Fail,0.990,0.990,0.957
+2,1648,lmqla,lmqlat,Insert C,stove,MP Fail,0.925,1.000,0.925
+3,333,lgammu,lgumma,Ablaut,flange,MP Fail,0.830,0.991,0.830
+4,169,alluz,illwaz,Templatic,almond,Both Fail,0.821,0.987,0.655
+5,496,!mʃiwr,!mʃiwir,Templatic,"consultation, negotiation",Both Fail,0.772,0.947,0.598
+6,213,!nbbarsu,!nbbursa,Ablaut,person suffering from depigmentation of the skin (vitiligo),MP Fail,0.717,0.992,0.717
+7,1700,!awmmiz,!iwmmaz,Ablaut,taking both hands,MP Fail,0.713,0.999,0.713
+8,1010,asif,isaf,Ablaut,river,MP Fail,0.541,0.993,0.541
+9,1179,aruʃ,uraʃ,Ablaut,lobster,MP Fail,0.536,0.999,0.536
+10,1015,alim,ilam,Ablaut,straw,MP Fail,0.527,0.999,0.527
+11,1863,blis,balis,Medial A,Satan,MP Fail,0.527,0.996,0.527

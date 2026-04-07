@@ -1,0 +1,2 @@
+domain,model,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,auc_roc_mean,auc_roc_std
+8way,lstm,0.47394894894894896,0.010035315860563544,0.08610829771207132,0.005945144118450844,,

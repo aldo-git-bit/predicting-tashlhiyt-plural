@@ -1,0 +1,94 @@
+{
+  "tables": [
+    {
+      "table_num": 1,
+      "domain": "has_suffix",
+      "label": "Has Suffix",
+      "n": 1185,
+      "level": "macro",
+      "smote": false,
+      "minority_pct": null
+    },
+    {
+      "table_num": 2,
+      "domain": "has_mutation",
+      "label": "Has Mutation",
+      "n": 1185,
+      "level": "macro",
+      "smote": false,
+      "minority_pct": null
+    },
+    {
+      "table_num": 3,
+      "domain": "3way",
+      "label": "3-way Classification",
+      "n": 1185,
+      "level": "macro",
+      "smote": false,
+      "minority_pct": null
+    },
+    {
+      "table_num": 4,
+      "domain": "medial_a",
+      "label": "Medial A",
+      "n": 562,
+      "level": "micro",
+      "smote": true,
+      "minority_pct": 16.5
+    },
+    {
+      "table_num": 5,
+      "domain": "final_a",
+      "label": "Final A",
+      "n": 562,
+      "level": "micro",
+      "smote": true,
+      "minority_pct": 12.6
+    },
+    {
+      "table_num": 6,
+      "domain": "final_vw",
+      "label": "Final V/W",
+      "n": 562,
+      "level": "micro",
+      "smote": true,
+      "minority_pct": 4.8
+    },
+    {
+      "table_num": 7,
+      "domain": "ablaut",
+      "label": "Ablaut",
+      "n": 562,
+      "level": "micro",
+      "smote": false,
+      "minority_pct": null
+    },
+    {
+      "table_num": 8,
+      "domain": "insert_c",
+      "label": "Insert C",
+      "n": 562,
+      "level": "micro",
+      "smote": true,
+      "minority_pct": 6.8
+    },
+    {
+      "table_num": 9,
+      "domain": "templatic",
+      "label": "Templatic",
+      "n": 562,
+      "level": "micro",
+      "smote": false,
+      "minority_pct": null
+    },
+    {
+      "table_num": 10,
+      "domain": "8way",
+      "label": "8-way Classification",
+      "n": 562,
+      "level": "micro",
+      "smote": false,
+      "minority_pct": null
+    }
+  ]
+}

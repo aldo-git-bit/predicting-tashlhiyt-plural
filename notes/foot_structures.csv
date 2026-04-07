@@ -1,0 +1,14 @@
+Foot Structure,Count,Percentage,count_feet,residue_right,residue
+F,303,16.26%,1,0,0
+FF,493,26.45%,2,0,0
+FFF,4,0.21%,3,0,0
+FFl,23,1.23%,2,1,1
+Fl,228,12.23%,1,1,1
+FlF,10,0.54%,2,0,1
+l,4,0.21%,0,1,1
+lF,686,36.80%,1,0,1
+lFF,27,1.45%,2,0,1
+lFFF,1,0.05%,3,0,1
+lFl,85,4.56%,1,1,1
+,,,,,
+"F = a foot, l = a light syllable",,,,,

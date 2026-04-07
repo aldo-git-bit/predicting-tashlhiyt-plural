@@ -1,0 +1,22 @@
+Rank,RecordID,SingularTheme,PluralTheme,InternalChanges,GlossEnglish,ErrorType,IdiosyncracyScore,LSTM_Confidence,MP_Confidence
+1,159,fr,farr,Medial A,wing,MP Fail,0.954,0.827,0.954
+2,1517,gʃʃul,gʷʃʃal,Ablaut,sack made from the skin of an animal,MP Fail,0.943,0.964,0.943
+3,1340,mhruʃ,mhraʃ,Ablaut,bad person,MP Fail,0.943,0.984,0.943
+4,1163,ʃaqqur,ʃuqqar,Ablaut,ax,MP Fail,0.938,0.985,0.938
+5,313,saqqun,suqqan,Ablaut,plug,MP Fail,0.937,0.639,0.937
+6,1176,mkkasu,mkkusa,Ablaut,heir,MP Fail,0.932,0.982,0.932
+7,1049,ħukku,ħukkut,Insert C,friction or rubbing,MP Fail,0.903,0.767,0.903
+8,1382,!ifd,!afda,"Ablaut
+Final A",thousand,MP Fail,0.901,0.907,0.901
+9,1581,!grnid,!grnad,Ablaut,partridge,LSTM Fail,0.888,0.888,0.668
+10,1727,anu,una,Ablaut,well,MP Fail,0.886,0.636,0.886
+11,1012,asa,asw,Final A,liver,LSTM Fail,0.884,0.884,0.582
+12,1412,brzzuj,brzzaj,Ablaut,"piece, shard",LSTM Fail,0.880,0.880,0.936
+13,1687,gʒdi,gʒda,Ablaut,wooden beam,MP Fail,0.865,0.932,0.865
+14,470,ala,alat,Insert C,hill,Both Fail,0.853,0.902,0.805
+15,1035,mrzu,mrza,Ablaut,broken,MP Fail,0.853,0.690,0.853
+16,325,ʕbbud,iʕbbad,Ablaut,pellet,Both Fail,0.846,0.751,0.940
+17,297,zgr,zgra,Final A,beef,LSTM Fail,0.839,0.839,0.727
+18,620,nakuf,nukaf,Ablaut,uprooted plant or herb,MP Fail,0.838,0.526,0.838
+19,351,gʒdmmur,gʒdmmar,Ablaut,parched cactus,Both Fail,0.837,0.872,0.801
+20,1059,mazir,mzra,Final A,manure,MP Fail,0.834,0.955,0.834

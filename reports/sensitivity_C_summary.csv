@@ -1,0 +1,11 @@
+domain,worst_delta,avg_delta
+3way,0.0382,0.0212
+8way,0.0416,0.0303
+ablaut,0.0425,0.0225
+final_a,0.0834,0.0226
+final_vw,0.0353,0.0166
+has_mutation,0.0392,0.0233
+has_suffix,0.0706,0.0356
+insert_c,0.0702,0.0366
+medial_a,0.0640,0.0206
+templatic,0.0662,0.0384

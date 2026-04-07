@@ -1,0 +1,19 @@
+Feature Set,Model,Accuracy,Macro-F1,AUC-ROC
+Semantic,LogReg,58.7 ± 7.0,21.4 ± 8.4,55.3 ± 9.5
+Semantic,RandForest,54.6 ± 8.5,22.4 ± 4.8,55.7 ± 9.9
+Semantic,XGBoost,35.1 ± 5.9,23.6 ± 3.3,57.1 ± 9.4
+Morphological,LogReg,53.0 ± 5.7,31.0 ± 3.9,66.3 ± 5.8
+Morphological,RandForest,52.5 ± 5.3,29.6 ± 3.7,65.7 ± 6.6
+Morphological,XGBoost,52.3 ± 5.2,29.9 ± 3.5,65.5 ± 6.1
+Phonological,LogReg,52.3 ± 5.4,27.1 ± 5.0,68.1 ± 7.7
+Phonological,RandForest,49.8 ± 7.1,27.7 ± 5.1,68.4 ± 6.6
+Phonological,XGBoost,29.4 ± 2.8,26.1 ± 1.5,71.3 ± 7.8
+Morph+Phon,LogReg,76.0 ± 4.2,33.3 ± 11.5,75.7 ± 7.9
+Morph+Phon,RandForest,66.2 ± 4.9,34.6 ± 2.5,76.1 ± 5.9
+Morph+Phon,XGBoost,63.9 ± 4.7,34.0 ± 3.1,75.6 ± 7.4
+All Features,LogReg,84.3 ± 4.2,32.3 ± 16.5‡,74.6 ± 9.2
+All Features,RandForest,70.8 ± 6.2,32.5 ± 5.1,73.5 ± 7.2
+All Features,XGBoost,69.9 ± 4.4,30.8 ± 8.0,71.5 ± 8.1
+N-grams Only,LogReg,81.5 ± 4.6,43.1 ± 10.3,74.6 ± 8.2
+N-grams Only,RandForest,69.0 ± 8.6,32.1 ± 12.0,69.7 ± 10.9
+N-grams Only,XGBoost,63.3 ± 5.7,32.9 ± 7.6,69.6 ± 8.8

@@ -1,0 +1,10 @@
+domain,model,macro_f1_mean,macro_f1_std,auc_roc_mean,accuracy_mean,delta_vs_ngrams_pct,delta_vs_morph_phon_pct
+has_suffix,LSTM Baseline,0.753,0.050,0.850,0.801,-11.6,-14.0
+has_suffix,N-grams (LogReg),0.852,0.022,0.844,0.796,0.0,-2.7
+has_suffix,Morph+Phon (LogReg),0.876,0.030,0.889,0.828,2.8,0.0
+ablaut,LSTM Baseline,0.741,0.043,0.821,0.742,0.8,-1.9
+ablaut,N-grams (LogReg),0.735,0.044,0.820,0.740,0.0,-2.9
+ablaut,Morph+Phon (LogReg),0.756,0.057,0.839,0.761,2.8,0.0
+medial_a,LSTM Baseline,0.644,0.149,0.854,0.854,31.5,17.4
+medial_a,N-grams (LogReg),0.490,0.102,0.827,0.788,0.0,-10.8
+medial_a,Morph+Phon (LogReg),0.549,0.126,0.851,0.813,12.1,0.0
