@@ -248,7 +248,7 @@ streamlit run dashboard/app.py
 
 ## Citation
 
-*Citation will be added upon publication.*
+Alderete, John and Sellami, Hamza. 2026. Structured Partial Predictability in Non-Concatenative Morphology: The Case of Tashlhiyt Berber. To appear in: *Workshop on Structured Linguistic Data and Evaluation (SLiDE)*, Spain 2026.
 
 ---
 
@@ -256,7 +256,7 @@ streamlit run dashboard/app.py
 
 The noun dataset was compiled from:
 - Jebbour, A. (1996). *Phonologie et morphologie du tachelhit de Tiznit (Maroc)*. Ph.D. thesis, Université Paris V.
-- Ouakrim, O. (1995). *Fonologie et morphologie du berbère*. Publications de la Faculté des Lettres et Sciences Humaines, Kénitra.
+- Jebbour, Abdelkrim and Boukous, Ahmed and El Alami, Abdelkrim and Li, Jane S. Y. and Ridouane, Rachid and Alderete, John. 2021. *Nine Tashlhiyt Texts: Structured Representations of 18,000 Words (First Release)*. Dataset.
 
 ---
 
